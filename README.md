@@ -18,7 +18,7 @@ A website showcasing our King's Day celebration in the Netherlands with friends.
 2. Open `index.html` in your web browser
 
 ## Live Demo
-Visit the live website at: [Your GitHub Pages URL will appear here after deployment]
+Visit the live website at: https://boriswkt.github.io/kings_day_adventure/
 
 ## License
 © 2024 King's Day Adventure. All rights reserved. 
