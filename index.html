@@ -13,16 +13,33 @@
 
     <main>
         <section class="hero">
-            <img src="We1.jpeg" alt="Group photo at King's Day" class="main-photo">
-            <div class="introduction">
+            <div class="video-container slide-in">
+                <video loop controls>
+                    <source src="King's Day.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <div class="introduction slide-in">
                 <h2>Our King's Day Adventure</h2>
                 <p>This is a website about our King's Day Adventure. We are a group of exchange students from Hong Kong.
                    During King's Day, the entire country turns into a sea of orange, 
                    where people come together to celebrate the King's birthday with music, markets, alcohol, and endless fun.</p>
             </div>
+            <div class="slider-container slide-in">
+                <div class="slider">
+                    <img src="We1.jpeg" alt="Group photo at King's Day" class="main-photo" id="hero-image">
+                    <img src="We2.jpeg" alt="Group photo 2" class="main-photo">
+                    <img src="We6.jpeg" alt="Drawing shirts 1" class="main-photo">
+                    <img src="We9.jpeg" alt="Drawing shirts 4" class="main-photo">
+                    <img src="We12.jpeg" alt="King's Night Celebration" class="main-photo">
+                </div>
+                <button class="slider-button prev">❮</button>
+                <button class="slider-button next">❯</button>
+                <div class="slider-dots"></div>
+            </div>
         </section>
 
-        <section class="before-kings-day">
+        <section class="before-kings-day slide-in">
             <h2>Before King's Day</h2>
             <p>Drawing our own shirt for the King's Day</p>
             <div class="photo-grid">
@@ -33,7 +50,7 @@
             </div>
         </section>
 
-        <section class="kings-night">
+        <section class="kings-night slide-in">
             <h2>King's Night</h2>
             <p>Celebrating the night before King's Day with friends and music!</p>
             <div class="photo-grid">
@@ -44,21 +61,21 @@
             </div>
         </section>
 
-        <section class="group-photos">
+        <section class="group-photos slide-in">
             <h2>King's Day</h2>
             <div class="photo-grid">
-                <img src="We2.JPG" alt="Group photo 2" class="group-photo">
-                <img src="We3.JPG" alt="Group photo 3" class="group-photo">
-                <img src="We4.JPG" alt="Group photo 4" class="group-photo">
-                <img src="We5.JPG" alt="Group photo 5" class="group-photo">
+                <img src="We2.jpeg" alt="Group photo 2" class="group-photo">
+                <img src="We3.jpeg" alt="Group photo 3" class="group-photo">
+                <img src="We4.jpeg" alt="Group photo 4" class="group-photo">
+                <img src="We5.jpeg" alt="Group photo 5" class="group-photo">
             </div>
         </section>
 
-        <section class="team-gallery">
+        <section class="team-gallery slide-in">
             <h2>Who are we?</h2>
             <div class="gallery-grid">
                 <a href="me.html" class="member-card">
-                    <img src="Me1.JPG" alt="Boris">
+                    <img src="Me1.jpeg" alt="Boris">
                     <h3>Boris</h3>
                 </a>
                 <a href="moon.html" class="member-card">
